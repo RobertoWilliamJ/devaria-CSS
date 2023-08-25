@@ -7,9 +7,10 @@
         <link rel="stylesheet" href="public/css/devaria.css" />
         <link rel="stylesheet" href="public/css/footer.css" />
         <link rel="stylesheet" href="public/css/header.css" />
+        <link rel="stylesheet" href="public/css/devstars.css" />
     </head>
     <body>
-        <header>
+        <header class="homepage">
             <a href="index.HTML" class="link-logo">
                 <img src="public/Fotos/logo-devaria.svg" alt="logo devaria" />
             </a>
@@ -23,10 +24,12 @@
             </nav>
         </header>
         <main>
-            <h1>Rancking Devstars</h1>
-            <h2>Como funciona os pontos Devstars?</h2>
-            <section>
-                <h3>Pontos recebidos através de desafios</h3>
+            <form class="model margin-horizontal-20px">
+
+                <h1 class="title text-center">Rancking Devstars</h1>
+                <h2 class="sub-title text-center">Como funciona os pontos Devstars?</h2>
+                <section>
+                    <h3>Pontos recebidos através de desafios</h3>
                 <table>
                     <tr>
                         <th>-</th>
@@ -44,16 +47,16 @@
             </section>
             <br>
             <br>
-        <section>
-            <h3>Pontuações de comentários</h3>
-            <table>
-                <thead>
-                    <th>-</th>
-                    <th>Menos de 05</th>
-                    <th>De 05 a 10</th>
-                    <th>Mais de 10</th>
-                </thead>
-                <tbody>
+            <section class="margin-horizontal-20px">
+                <h3>Pontuações de comentários</h3>
+                <table>
+                    <thead>
+                        <th>-</th>
+                        <th>Menos de 05</th>
+                        <th>De 05 a 10</th>
+                        <th>Mais de 10</th>
+                    </thead>
+                    <tbody>
                     <tr>
                         <td>Pontuação</td>
                         <td>50xp</td>
@@ -63,19 +66,22 @@
                 </tbody>
             </table>
         </section>
-        <section>
+        <br>
+        <br>
+        <section class="section-video">
             <div>
-                <iframe src="https://app.devaria.com.br/devstars?turmaId=1" width="1200" height="400"></iframe>
+                <iframe src="https://app.devaria.com.br/devstars?turmaId=1" width="850" height="300"></iframe>
             </div>
         </section>
-            <br>
-            <br>
-        </main>
-        <footer>
-            <section>
-                <span>contato@devaria.com.br</span> <br />
-                <span>Conheça o nosso canal do Youtube!</span>
-            </section>
-        </footer>
-    </body>
+        <br>
+        <br>
+    </form>
+    </main>
+    <footer>
+        <section>
+            <span>contato@devaria.com.br</span> <br />
+            <span>Conheça o nosso canal do Youtube!</span>
+        </section>
+    </footer>
+</body>
 </html>

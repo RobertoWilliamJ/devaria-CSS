@@ -39,3 +39,8 @@ header nav ul li:not(:last-child) {
     top: 18%;
     }
 }
+
+.title, .text-justify, 
+.sub-title, .contact-form, .model {
+    color: #ffffff;
+}
