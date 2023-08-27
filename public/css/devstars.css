@@ -23,3 +23,6 @@ table, th, td {
     }
 }
 
+.section-video {
+    display: inline-block;
+}
