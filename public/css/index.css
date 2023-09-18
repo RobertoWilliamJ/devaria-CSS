@@ -2,7 +2,8 @@
 
 
 .cover-conteiner figure img{
-    width: 98%;
+    width: 100%;
+    border-radius: 18px;
 }
 
 main h3.title {
